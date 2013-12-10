@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Zendroid</string>
+    <string name="helpArgs">Arguments (e.g., --system-dns)</string>
+    <string name="totalCommand">Full Command</string>
+    <string name="helpTarget">Scan Target (e.g., 192.168.1.0/24)</string>
+    <string name="Start">Start</string>
+    <string name="Help">Help</string>
+    <string name="Share">Share</string>
+    <string name="History">History</string>
+    <string name="Subnet">Interfaces</string>
+    <string name="defaultText">Default Text</string>
+    <string name="Open">Open</string>
+    <string name="Delete">Delete</string>
+    <string name="illegalStateExceptionError">Zendroid has encountered an Exception</string>
+    <string name="ScanSubnet">Scan my Subnet</string>
+    <string name="Clear">Clear</string>
+    <string name="longPress">Long press on an item to open, share, and delete.</string>
+    <string name="Options">Options</string>
+    <string name="forceRoot">Force Root</string>
+    <string name="forceRootDesc">Unconditionally try to use the &quot;su&quot; command to gain root privileges.</string>
+    <string name="saveHistory">Save History</string>
+    <string name="saveHistoryDesc">Save old targets and scan results in pips.db accessible only by this program.</string>
+    <string name="showLogcat">logcat</string>
+    <string name="showLogcatDesc">Shows debugging information in logcat for development and debugging.</string>
+
+    <string-array name="command_array">
+        <item>nmap</item>
+        <item>ncat</item>
+        <item>nping</item>
+    </string-array>
+    <string-array name="argument_array">
+        <item>Intense scan</item>
+        <item>Intense scan plus UDP</item>
+        <item>Intense scan, all TCP ports</item>
+        <item>Intense scan, no ping</item>
+        <item>Ping scan</item>
+        <item>Quick scan</item>
+        <item>Quick scan plus</item>
+        <item>Quick traceroute</item>
+        <item>Regular scan</item>
+        <item>Slow comprehensive scan</item>
+    </string-array>
+
+    <string name="title_activity_folder">FolderActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
